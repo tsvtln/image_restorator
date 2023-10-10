@@ -1,2 +1,2 @@
-# image_restorator
+# image_restoration
 Restore images with the use of AI
