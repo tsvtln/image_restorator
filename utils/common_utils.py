@@ -6,7 +6,7 @@ import torch
 import torchvision.transforms as transforms
 from PIL import Image
 
-from ..dataset import *
+from .dataset import *
 
 from .biggan_utils import CenterCropLongEdge
 

@@ -7,7 +7,7 @@ import torch
 import torchvision.utils as vutils
 
 import utils
-from models import IR
+from .models import IR
 
 sys.path.append("./")
 
