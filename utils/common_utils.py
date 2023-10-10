@@ -6,7 +6,7 @@ import torch
 import torchvision.transforms as transforms
 from PIL import Image
 
-import dataset
+from ..dataset import *
 
 from .biggan_utils import CenterCropLongEdge
 
@@ -113,7 +113,7 @@ def str2bool(v):
 
 
 def get_img(img_path, resolution):
-    img = dataset.default_loader(img_path)
+    img = default_loader(img_path)
     norm_mean = [0.5, 0.5, 0.5]
     norm_std = [0.5, 0.5, 0.5]
     transform = transforms.Compose([
